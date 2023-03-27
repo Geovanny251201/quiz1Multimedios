@@ -22,13 +22,19 @@
     width: 100%;
     float: left;
     height: 800px;
+    display: flex;
    
 
   }
   .menu {
-    background-color:darkcyan;
+    
     width: 25%;
     float: left;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 30px;
+   
+    
   }
   .dashboard {
     background-color:antiquewhite;
@@ -37,7 +43,7 @@
     min-height: 150px;
   }
   .rss {
-    background-color:antiquewhite;
+    background-color:darkkhaki;
     width: 25%;
     float: left;
     min-height: 150px;
