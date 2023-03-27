@@ -45,18 +45,31 @@
     
   }
   .rss {
-    background-color:darkkhaki;
+    background-color:antiquewhite;
     width: 25%;
     float: left;
+    max-height: fit-content;
    
   }
   .general{
     position: absolute;
     width: auto;
   }
+<<<<<<< Updated upstream
   .menuElem{
 
         display:grid;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         size: 90px;
   }
+=======
+
+  .imagenes
+  {
+    width: 25%;
+    display: grid;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    
+  }
+>>>>>>> Stashed changes
