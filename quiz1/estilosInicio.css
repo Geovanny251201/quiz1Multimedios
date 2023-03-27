@@ -15,7 +15,7 @@
     width: 100%;
     float: left;
     height: 60px;
-    margin-top: 30px;
+    
   }
   .main {
     background-color:lightblue;
@@ -37,9 +37,11 @@
     
   }
   .dashboard {
-    background-color:antiquewhite;
-    width: 50%;
+   
+    width: 60%;
+    height: 100%;
     float: left;
+    background-color: antiquewhite;
     
   }
   .rss {
@@ -51,4 +53,10 @@
   .general{
     position: absolute;
     width: auto;
+  }
+  .menuElem{
+
+        display:grid;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        size: 90px;
   }
