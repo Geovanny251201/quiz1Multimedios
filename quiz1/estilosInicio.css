@@ -40,13 +40,13 @@
     background-color:antiquewhite;
     width: 50%;
     float: left;
-    min-height: 150px;
+    
   }
   .rss {
     background-color:darkkhaki;
     width: 25%;
     float: left;
-    min-height: 150px;
+   
   }
   .general{
     position: absolute;
