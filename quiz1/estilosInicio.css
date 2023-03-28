@@ -51,6 +51,7 @@
   float: left;
   max-width: 100%;
   overflow-wrap: break-word;
+  overflow: scroll;
    
   }
   .general{
@@ -102,5 +103,6 @@
   }
   .info{
     text-align: justify;
-    word-wrap: break-word;
+    word-wrap:break-word; 
+    
   }
