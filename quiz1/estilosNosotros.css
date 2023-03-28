@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+   
+}
+
+.header {
+    background-color: #92c7a3;
+    width: 100%;
+    float: left;
+    height: 75px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+
+
+.main {
+    background-color: #3ca2a2;
+    width: 100%;
+   
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+
+
+}
+
+.menu {
+    height: 100%;
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 30px;
+    flex-basis: 100%;
+}
+
+.dashboard {
+
+    width: 60%;
+    height: 100%;
+    
+    text-align: center;
+    background-color: #92c7a3;
+    overflow-y: scroll;
+    flex-basis: 100%;
+    
+
+
+
+}
+
+.fondo {
+  
+
+    width: 100%;
+    height: 100%;
+    float: left;
+    opacity: 0.8;
+    min-height: 400px;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 30px;
+   
+        
+}
+
+
+
+.rss {
+    background-color: #dfece6;
+    width: 25%;
+    float: left;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    flex-basis: 100%;
+
+}
+@media (min-width: 768px) {
+    .menu {
+      flex-basis: calc(33.33% - 20px);
+      margin: 0 10px;
+    }
+    .dashboard {
+        flex-basis: calc(33.33% - 20px);
+        margin: 0 10px;
+      }
+      .rss {
+        flex-basis: calc(33.33% - 20px);
+        margin: 0 10px;
+      }
+      
+  }
+
+.general {
+   
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+.menuElem {
+
+
+    justify-items: left;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    margin-left: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    
+
+
+}
+
+.elemento {
+    flex: 1 0 30%;
+    height: 100px;
+    border: 1px solid;
+    background-color:#3ca2a2 ;
+    text-align: center;
+    margin-right: 5px;
+  
+}
+.elemento:hover{
+    transform: scale(1.1);
+    color: #3ca2a2;
+    background-color: none;
+    cursor: pointer;
+}
+.button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 15px;
+    background-color: #215a6d;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+}
+
+.button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;
+    }
+ 
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: none;
+    cursor: pointer;
+   
+
+
+}
+.linkMenu{
+    height: 60px;
+}
+
+.imagenes {
+    width: 35%;
+    margin-bottom: 5%;
+
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.imgPaisaje {
+    width: 200px;
+}
+
+.info {
+    text-align: justify;
+    word-wrap: break-word;
+    padding: 10px;
+
+}
+
+.colorRedes {
+    color: #f2f2f2;
+}
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    
+    width: 100%;
+    height: 100%;
+    background-color: #92c7a3;
+   
+    
+    
+}
+
+
+.container {
+    width: 100%;
+    height: 150px;
+    background-color: #2d2d29;
+    color: white;
+    
+}
+
+.columna {
+    display: inline-block;
+    width: 30%;
+    margin-right: 2%;
+    vertical-align: top;
+
+}
+
+.columna:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+.bloqueImg{
+height: 100%;
+margin-top: 40px;
+}
+.bloque{
+    width: 100%;
+    border: 1px solid;
+    height: 30%;
+    
+}
+.bloque video{
+   max-width: 100%;
+   width: 100%;
+   max-height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
