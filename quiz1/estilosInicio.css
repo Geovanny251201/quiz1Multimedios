@@ -6,6 +6,7 @@
   body{
     margin: 0;
   }
+
   .header {
     background-color:#92c7a3;
     width: 100%;
@@ -17,6 +18,7 @@
     text-align: center;
     color: #333;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    word-break: break-all;
   }
   .footer {
    background-color: aquamarine;
@@ -63,9 +65,8 @@
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     size: 30px;
-   
-    
   }
+  
   .dashboard {
    
     width: 60%;
