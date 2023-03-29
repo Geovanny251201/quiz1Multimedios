@@ -132,13 +132,16 @@
         transform: scale(1.25);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
       }
+
       .info{
         text-align: justify;
         word-wrap:break-word; 
         padding: 10px;
         text-decoration: dashed;
-        
+      
       }
+
+
 
       .colorRedes{
         color: #f2f2f2;
@@ -176,6 +179,8 @@
         display: flex;
         background-color: lightgreen;
         overflow:auto;
+        margin-left: 10%;
+        margin-right: 10%;
       }
 
       .tablaPagos{
@@ -190,3 +195,5 @@
       .impar{
         background-color:gainsboro;
       }
+
+     
