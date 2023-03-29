@@ -51,32 +51,33 @@ body {
 
     width: 60%;
     height: 100%;
-    
     text-align: center;
-    background-color: #92c7a3;
-    overflow-y: scroll;
     flex-basis: 100%;
     
-
-
-
+    
 }
 
 .fondo {
-  
-
     width: 100%;
     height: 100%;
     float: left;
-    opacity: 0.8;
-    min-height: 400px;
+    color: white;
     font-size: 30px;
-    text-align: justify;
-    margin-left: 30px;
-   
-        
+    text-align: start;
 }
+.fuentePalabra{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.info {
+    text-align: justify;
+    word-wrap: break-word;
+    padding: 10px;
+    line-height: 1.7;
 
+}
 
 
 .rss {
@@ -89,6 +90,39 @@ body {
     flex-basis: 100%;
 
 }
+.sabias-que {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sabias-que p {
+    margin-bottom: 10px;
+    
+  }
+  
+  .sabias-que .sabias-que-titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .sabias-que .sabias-que-texto {
+    font-style: italic;
+  }
+
+
+
 @media (min-width: 768px) {
     .menu {
       flex-basis: calc(33.33% - 20px);
@@ -220,12 +254,7 @@ a:hover {
     width: 200px;
 }
 
-.info {
-    text-align: justify;
-    word-wrap: break-word;
-    padding: 10px;
 
-}
 
 .colorRedes {
     color: #f2f2f2;
