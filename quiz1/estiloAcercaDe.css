@@ -100,7 +100,11 @@
         flex: 1 0 30%;
         height: 100px;
       }
-
+      a{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+    }
       a:hover {
         transform: scale(1.1);
         color: #3ca2a2;
@@ -143,15 +147,16 @@
       
       
       .button {
-        padding: 12.5px 30px;
+        margin-right: 5px;
         border: 0;
-        border-radius: 100px;
+        border-radius: 15px;
         background-color: #215a6d;
         color: #ffffff;
         font-weight: Bold;
         transition: all 0.5s;
         -webkit-transition: all 0.5s;
         text-decoration: none;
+        height: 60px;
       }
       
       .button:hover {

@@ -180,7 +180,7 @@ body {
     cursor: pointer;
 }
 .button {
-    padding: 12.5px 30px;
+    margin-right: 5px;
     border: 0;
     border-radius: 15px;
     background-color: #215a6d;
@@ -189,6 +189,7 @@ body {
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     text-decoration: none;
+    height: 60px;
 }
 
 .button:hover {
