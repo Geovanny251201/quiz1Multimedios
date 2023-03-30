@@ -269,3 +269,13 @@ height: 150px;
   border: none;
   padding: 20px;
 }
+
+.imagenPublicidad{
+  margin-top: 15%;
+  border: 0.5rem solid chocolate;
+}
+
+.contenedorImagenesPublicidad{
+border-radius: 25px;
+height: 100%;
+}
