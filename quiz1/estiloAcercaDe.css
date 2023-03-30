@@ -2,6 +2,7 @@
   box-sizing: border-box;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 body {
@@ -21,7 +22,12 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   word-break: break-all;
 }
-
+.general {
+  width: auto;
+  height: auto;
+  
+  box-sizing: border-box;
+}
 
 .main {
 
@@ -45,17 +51,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   size: 30px;
   flex-basis: 100%;
+  height: 100%;
 }
 
 .dashboard {
   width: 60%;
-  height: 100%;
   float: left;
   background-color: antiquewhite;
   text-align: center;
   flex-basis: 100%;
+  
 
 }
+
 
 .rss {
   background-color: #dfece6;
@@ -67,11 +75,7 @@ body {
   flex-basis: 100%;
 }
 
-.general {
-  position: absolute;
-  width: auto;
-  height: 100%;
-}
+
 
 .menuElem {
   justify-items: left;
@@ -151,10 +155,13 @@ img:hover {
 }
 
 .info {
-  text-align: justify;
+ 
   word-wrap: break-word;
   padding: 10px;
   text-decoration: dashed;
+  font-weight: bold;
+  font-size: 25px;
+ 
 
 }
 
@@ -167,13 +174,13 @@ img:hover {
 .footer {
   background-color: aquamarine;
   width: 100%;
-  height: 100px;
+  height: 100%;
 
 }
 
 .container {
   width: 100%;
-
+height: 150px;
   margin: 0 auto;
   background-color: #2d2d29;
   color: white;
@@ -241,4 +248,25 @@ img:hover {
 
 .impar {
   background-color: gainsboro;
+}
+
+
+.video-frame {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 360px;
+  margin: 40px;
+  overflow: hidden;
+  width: 640px;
+  background-color: white;
+ 
+
+  
+}
+
+.video-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 20px;
 }
