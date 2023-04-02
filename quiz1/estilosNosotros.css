@@ -6,11 +6,15 @@
 
 body {
     margin: 0;
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
    
 }
 
 .header {
-    background-color: #92c7a3;
+   
     width: 100%;
     float: left;
     height: 75px;
@@ -26,7 +30,7 @@ body {
 
 
 .main {
-    background-color: #3ca2a2;
+  
     width: 100%;
    
     height: 100%;
@@ -81,19 +85,19 @@ body {
 
 
 .rss {
-    background-color: #dfece6;
+    
     width: 25%;
     float: left;
     max-width: 100%;
     overflow-wrap: break-word;
-    overflow-y: scroll;
+    
     flex-basis: 100%;
 
 }
 .sabias-que {
     background-color: #f8f8f8;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 20px;
     margin-bottom: 20px;
     font-size: 18px;
