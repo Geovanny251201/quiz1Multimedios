@@ -265,12 +265,18 @@ img:hover {
 
   margin-right: 30px;
   overflow: hidden;
-  width: 600px;
-  background-color: white;
+  width: 100%;
+  background-color: rgb(253, 253, 253);
 
 
 
 
+}
+
+.container2{
+  /* margin: 20px; */
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 .video-frame iframe {
